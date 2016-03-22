@@ -1,0 +1,20 @@
+Command listing:
+
+help			--		Print this help file.
+
+standby			--		Set audio server to standby mode.
+record			--		Set audio server to record mode.
+playback		--		Set audio server to playback mode.
+play			--		Set audio server to play mode.
+noise			--		Set audio server to noise mode.
+
+fir_dump		--		Dump FIR filter response to file.
+iir_dump		--		Dump IIR filter response to file.
+synch_dump		--		Dump synchronization signal to file.
+
+transmit %s		--		Modulate and transmit string %s over audio.
+load %s			-- 		Load file into the audio input fifo.
+dump			--		Dump the audio output fifo to /data/audio_output_fifo.
+
+close			--		Close this connection, will not shutdown the server.
+quit			--		Shutdown the server.
